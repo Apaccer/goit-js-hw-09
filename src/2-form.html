@@ -4,9 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><task-2></task-2></title>
+    <link rel="stylesheet" href="./css/2-form.css" />
   </head>
   <body>
-    <p><a href="./index.html"></a></p>
+    <p><a href="index.html">Go back</a></p>
+    <form class="feedback-form" autocomplete="off">
+      <label>
+        Email
+        <input class="input-email" type="email" name="email" autofocus />
+      </label>
+      <label>
+        Message
+        <textarea class="message" name="message" rows="8"></textarea>
+      </label>
+      <button class="btn" type="submit">Submit</button>
+    </form>
     <script type="module" src="./js/2-form.js"></script>
   </body>
 </html>
