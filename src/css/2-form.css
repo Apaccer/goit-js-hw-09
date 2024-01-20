@@ -74,3 +74,8 @@
 .btn:hover {
   background-color: #6c8cff;
 }
+.input-email:hover,
+.message:hover {
+  border-radius: 4px;
+  border: 1px solid #000;
+}
